@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    scroll-behavior: smooth;
+    display: block;
+    width: 100vw;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    overflow-x: hidden;
+    
+}
+/* Fixed Menu */
+.main-menu {
+    display: flex;
+    position: fixed;
+        height: 69px;
+        width: 100vw;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+    border-bottom: 1px solid seashell;
+}
+.main-menu__nav {
+    display: flex;
+    margin-right: 10px;
+}
+.main-menu img {
+    display: flex;
+    height: 50px;
+    margin-left: 10px;
+}
+
+/* Section Home */
+.section-home {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+ /* Misc */
+.main-menu a {
+    color: grey;
+    margin: 10px;
+    text-decoration: underline;
+}
+a:hover {
+    color: rgb(0, 174, 255);
+}
